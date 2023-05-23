@@ -1,40 +1,107 @@
-:root{
-    --primary-color:#efefef;
+:root {
+    --primary-color: #000;
+    --secondary-color: #FF006A;
 }
+
 html,
-body{/*body hepsine aynı şeyleri uygular*/
+body {
+    /*body hepsine aynı şeyleri uygular*/
     font-family: 'Pangolin', cursive;
 }
-.container
-{
-    margin-top: 1em;
-    width: 1030px;
+
+.container {
+    display: flex;
+    vertical-align: middle;
+    height: 96px;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
+.container2 {
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     background-color: var(--primary-color);
 }
-header img
-{
-    width: 64px;
-    height: 64px;
+
+header img {
+    width: 72px;
+    height: 72px;
 }
-header .container > div /*header içindeki container olanın içindeki ilk dive odaklanır*/
-{
+
+header .container>div
+
+/*header içindeki container olanın içindeki ilk dive odaklanır*/
+    {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-header .container > div span /*header içindeki container olanın içindeki divin tüm spanlara odaklanır*/
-{
-    color: red;
-}
-header a{
-    color:#333;
+
+header a {
+    font-size: 20px;
+    color: #fff;
     text-decoration: none;
     font-weight: 600;
     padding: 1em;
 }
-header a:hover{
-    background-color: #dedede;
-    border-radius: 1em;
+
+header svg {
+    fill: #fff;
+}
+
+header svg :hover {
+    fill: var(--secondary-color);
+}
+
+header a:hover {
+    color: var(--secondary-color);
+}
+main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+main img{
+    width: 30%;
+    padding: 1em;
+}
+footer {
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 276px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1em;
+}
+footer .foot{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer .foot > div{
+    width: 33%;
+    padding: 1em;
+}
+footer svg{
+    fill: #fff;
+    padding: 5px;
+}
+footer h5{
+    color: white;
+    text-align: center;
+}
+footer svg :hover {
+    fill: var(--secondary-color);
+    
+}
+footer img{
+    width: 64px;
+    height: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
 }
