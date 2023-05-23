@@ -1,0 +1,40 @@
+:root{
+    --primary-color:#efefef;
+}
+html,
+body{/*body hepsine aynı şeyleri uygular*/
+    font-family: 'Pangolin', cursive;
+}
+.container
+{
+    margin-top: 1em;
+    width: 1030px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--primary-color);
+}
+header img
+{
+    width: 64px;
+    height: 64px;
+}
+header .container > div /*header içindeki container olanın içindeki ilk dive odaklanır*/
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container > div span /*header içindeki container olanın içindeki divin tüm spanlara odaklanır*/
+{
+    color: red;
+}
+header a{
+    color:#333;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 1em;
+}
+header a:hover{
+    background-color: #dedede;
+    border-radius: 1em;
+}
