@@ -9,7 +9,7 @@ body {
     font-family: 'Pangolin', cursive;
 }
 
-.container {
+.container1 {
     display: flex;
     vertical-align: middle;
     height: 96px;
@@ -22,6 +22,20 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color: var(--primary-color);
+}
+
+.navbar-nav .nav-link {
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--secondary-color);
+}
+
+.thumbnail img{
+   border-radius: 25px;
 }
 
 header img {
@@ -57,15 +71,18 @@ header svg :hover {
 header a:hover {
     color: var(--secondary-color);
 }
+
 main {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
-main img{
+
+main img {
     width: 30%;
     padding: 1em;
 }
+
 footer {
     background-color: var(--primary-color);
     width: 100%;
@@ -75,7 +92,8 @@ footer {
     padding-bottom: 1em;
     margin-top: 24px;
 }
-footer .foot{
+
+footer .foot {
     color: white;
     display: flex;
     justify-content: space-between;
@@ -83,35 +101,40 @@ footer .foot{
     margin-left: auto;
     margin-right: auto;
 }
-footer .foot > div{
+
+footer .foot>div {
     width: 33%;
     padding: 1em;
 }
-footer svg{
+
+footer svg {
     fill: #fff;
     padding: 5px;
 }
-footer h5{
+
+footer h5 {
     color: white;
     text-align: center;
 }
+
 footer svg :hover {
     fill: var(--secondary-color);
 }
-.footer-logo{
+
+.footer-logo {
     width: 64px;
     height: 64px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
 }
-footer #email
-{
+
+footer #email {
     width: 250px;
     height: 32px;
 }
-.subscribe
-{
+
+.subscribe {
     color: white;
     width: 128px;
     height: 36px;
