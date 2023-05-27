@@ -6,3 +6,5 @@
   https://404games.vercel.app/
   
   Yayınladığım 3D modeller için mobil uyumlu bir portfolyo web sayfası tasarımı.
+  
+  Mobil için bootstap kullanılmıştır.
