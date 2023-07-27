@@ -3,7 +3,6 @@
     --secondary-color: #FF006A;
 }
 
-html,
 body {
     /*body hepsine aynı şeyleri uygular*/
     font-family: 'Pangolin', cursive;
@@ -23,7 +22,9 @@ body {
     margin-right: auto;
     background-color: var(--primary-color);
 }
-
+.navbar{
+    
+}
 .navbar-nav .nav-link {
     font-size: 20px;
     color: white;
